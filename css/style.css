@@ -1403,4 +1403,135 @@ footer {
 	display: block;
 	border-radius: 8px;
 }
+.complaint-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.complaint-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.complaint-info {
+    margin-bottom: 40px;
+}
+
+.complaint-info h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.complaint-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.complaint-process h3,
+.complaint-confidential p {
+    margin-top: 20px;
+    color: #222;
+}
+
+.complaint-process ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.complaint-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #005baa;
+    box-shadow: 0 0 6px rgba(0, 91, 170, 0.2);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+    min-width: 250px;
+}
+
+.form-hint {
+    font-size: 12px;
+    color: #777;
+    margin-top: 4px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit-btn {
+    padding: 14px;
+    background-color: #005baa;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #003e7e;
+}
+
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    .complaint-container {
+        padding: 30px 20px;
+    }
+}
 

@@ -1385,3 +1385,22 @@ footer {
     position: relative;
 }
 
+.gallery-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 1rem;
+}
+
+.gallery-grid img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 8px;
+}
+
